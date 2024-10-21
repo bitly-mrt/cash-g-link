@@ -1,25 +1,66 @@
 body {
     display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(to bottom, #006769, #40a578); 
     font-family: Arial, sans-serif;
 }
 
+
 .message {
     text-align: center;
-    background-color: #fff;
+    width: 1200px;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
 }
 
 h1 {
-    color: #d9534f; /* Red color for warning */
+    color: #ff0a02; 
 }
 
 p {
-    color: #333;
+    font-size: 20px;
+    color: #fff;
+}
+
+.app-download {
+    text-align: center; 
+    padding: 20px; 
+    border-radius: 5px; 
+}
+
+.download-info {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 10px; 
+}
+
+.app-info {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 10px 0; 
+}
+
+.app-info span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff; 
+}
+
+.app-icon {
+    width: 70px; 
+    height: 70px; 
+    margin-right: 10px; 
+}
+
+.play-store-icon {
+    width: 50px; 
+    height: auto; 
+    margin-left: 10px; 
 }
